@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "ed74cafb4178704a",
+    "type": "split",
+    "children": [
+      {
+        "id": "510238fac760aa9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c0fbd186dcc9849",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Floor Planning/Floor Planning.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3bda27fc77258428",
+    "type": "split",
+    "children": [
+      {
+        "id": "723d924a5eda769a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df7ca950693d4da9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "36300d4c64f08653",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8009adb0c72283da",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7ea5624950e89c96",
+    "type": "split",
+    "children": [
+      {
+        "id": "182614f3d3fb558c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5a4c68f77decb78",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Floor Planning/Floor Planning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "58f8a2d0b3e3926f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Floor Planning/Floor Planning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "073d7852593fc466",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "850135b868f15dfa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Floor Planning/Floor Planning.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7c0fbd186dcc9849",
+  "lastOpenFiles": [
+    "Placement/Post Placement optimizations.md",
+    "Placement/wirelength_esimations.md",
+    "Placement/Placemennt.md",
+    "Floor Planning/Floor Planning.md",
+    "imgs/Pasted image 20240824112628.png",
+    "Placement/Legalization and Detailed Placement.md",
+    "Placement/Global Placement.md",
+    "2024-08-24.md",
+    "Untitled.canvas",
+    "Floor_plannig.md",
+    "Floor Planning",
+    "imgs/Pasted image 20240824121636.png",
+    "imgs/Pasted image 20240824121506.png",
+    "imgs/Pasted image 20240824121230.png",
+    "imgs/Pasted image 20240824114541.png",
+    "imgs/Pasted image 20240824114557.png",
+    "imgs/Pasted image 20240824114714.png",
+    "imgs/Pasted image 20240824115448.png",
+    "imgs",
+    "Physical Design/Global Placement Techniques.md",
+    "Pasted image 20240824114357.png",
+    "Pasted image 20240824112554.png",
+    "images",
+    "Placement",
+    "Untitled 1.md"
+  ]
+}
