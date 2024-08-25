@@ -62,6 +62,10 @@
 - Avoid narrow channels for macros 
 	- the aspect ratio can be changed if the macro is a soft macro  
 		![[Pasted image 20240825125525.png|200]]  ![[Pasted image 20240825125647.png|200]]  ![[Pasted image 20240825125828.png|200]]
+- Add Halos around Macros
+	- if cells are placed too close to the macros there is congestion is formed after routing since all the wires will be congested in one place
+		![[Pasted image 20240825232420.png]]
+		
 ## Width and Height of cells 
 Lets consider a basic example of a combo logic between capture and launch flops. Each cell and each flop will have dimensions (in this case lets take unit dimensions). Now to produce the components of the netlist (cell and flops) , it needs to be structured on the silicon wafer die. Hence I would need to place these components of the netlist in certain way such that it fits in the core to be placed on the die.
 
@@ -91,6 +95,7 @@ When hard macros such as memory, comparator,.. etc. are used in the designs, the
 Memory elements are often placed close to the input sides and served as pre placed cells . Connectivity with these supplies are done with supply/power wires . The physical distance causes a voltage drop and in such cases the voltage supplied to the cells are not enough to meet the noise margin specifications . In such cases De-coupling capacitors are used .
 ![[Pasted image 20240824181325.png]]
 The capacitor gets the voltage almost equal to the supply voltage , since they are close to the blocks there will not be drop in voltage .
+> More reference for necessity of Decoupling capacitors [[Power Planning#Voltage Drop]]
 ### working 
 - When there is no switching activity happening the capacitor charges 
 - It discharges when there is switching activity happening 
@@ -99,7 +104,7 @@ The capacitor gets the voltage almost equal to the supply voltage , since they a
 In the block it looks like the above figure
 
 ## Power Supply
-The power fluctuation issue was stabilised for a local module using de-coupling capacitors .
+The power fluctuation issue was stabilized for a local module using de-coupling capacitors .
 Now we have the macro repeated multiple times 
 
 ![[Pasted image 20240824182443.png]]
@@ -126,6 +131,9 @@ This problem is caused by having a single power supply
 
 Voltage droop and Ground Debounce can be solved by giving multiple power supplies given in form of a mesh . Hence the capacitor closest to the power line can tap into whichever needed. VDD power lines are placed in vertically and horizontal layers with metal contacts. The GND lines are also placed similarly in the same level as VDD. However it is made sure that both these lines are isolated from each other.
 ![[Pasted image 20240824184304.png]]
+
+**Demerits** - > increases die area , leakage power dissipation
+Number of De-coupling capacitors should be optimized 
 ## Pin Placement
 
 Let us consider the following circuit , Where Block A,B,C  are Pre placed Cells 

@@ -1,9 +1,9 @@
 ## Index
 - [Basics](#Basics)
 - [Wirelength estimation](wirelength_esimations)
-- [Global Placement](Global Placement)
-- [Legalization and Detailed Placement](Legalization and Detailed Placement)
-- [Post Placement optimizations](Post Placement optimizations)
+- [[Global Placement]]
+- [[Legalization and Detailed Placement]]
+- [[Post Placement optimizations]]
  ## Basics
  - Decide locations of Standard cells (not Macros)
  - Goal : to ensure routablity of Design
