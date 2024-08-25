@@ -12,6 +12,7 @@
 -  Standard Cells
 -  Macro + Halo (area around the macro where nothing must be placed) 
 -  Interconnects
+>Note :  Macro is a predefined and reusable blocks of logic which can perform specific tasks
 ## IO Cells
  -  special cells through which a chip communicates with the external world
  ![[Pasted image 20240825123043.png|300]]
@@ -44,15 +45,22 @@
 		![[Pasted image 20240825125028.png|300]]
 	- Macros interacting with IO is placed close to IO cells
 ### Types of Macros
-- Soft macros 
-	-  Aspect ratio is not flexible
 - Hard macros 
+	- non-flexible , Aspect ratio is not flexible
+	- PPA and timing is fixed
+	- available as ICs
+	- industry graded
+	
+- Soft macros 
 	- Aspect ratio is  flexible 
+	- PPA and timing is unpredictable
+	-  synthesizable RTL.
 ### Guidelines for placing Macros
 - Allot contiguous region for standard cells
 	 ![[Pasted image 20240825125314.png|200]]  ![[Pasted image 20240825125342.png|200]]
 		Considering the above floor plans the right one has more contiguous space to place standard cells
-- Avoid narrow channels for macros
+- Avoid narrow channels for macros 
+	- the aspect ratio can be changed if the macro is a soft macro  
 		![[Pasted image 20240825125525.png|200]]  ![[Pasted image 20240825125647.png|200]]  ![[Pasted image 20240825125828.png|200]]
 ## Width and Height of cells 
 Lets consider a basic example of a combo logic between capture and launch flops. Each cell and each flop will have dimensions (in this case lets take unit dimensions). Now to produce the components of the netlist (cell and flops) , it needs to be structured on the silicon wafer die. Hence I would need to place these components of the netlist in certain way such that it fits in the core to be placed on the die.
@@ -76,9 +84,7 @@ lets consider a combo logic which consists of a massive number of gates (50,000)
 ![[Pasted image 20240824150855.png]]
 When hard macros such as memory, comparator,.. etc. are used in the designs, these locations are user defined and the tools will not touch these IPs during the automated PnR flow.
 
-> Note: Macro is a predefined and reusable blocks of logic which can perform specific tasks. There are two types of macros, namely:  
-	- Hard macros --> non-flexible, PPA and timing is fixed, available as ICs, industry graded.
-	- Soft macros --> flexible, PPA and timing is unpredictable, synthesizable RTL.
+
 
 ## De-Coupling capacitors
 ![[Pasted image 20240824180810.png]]
