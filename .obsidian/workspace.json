@@ -18,8 +18,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8d8a4b528b1453f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sanity Checks/Sanity Checks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a64f2443a656ea5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Floor Planning/Floor Planning.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e0d74fe20ee9816",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Floor Planning/Floor Planning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e57826308b07b084",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Floor Planning/Placement (VSD).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,30 +195,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c0fbd186dcc9849",
+  "active": "9a64f2443a656ea5",
   "lastOpenFiles": [
-    "Placement/Post Placement optimizations.md",
-    "Placement/wirelength_esimations.md",
-    "Placement/Placemennt.md",
+    "Floor Planning/Implementation Methodology.md",
     "Floor Planning/Floor Planning.md",
-    "imgs/Pasted image 20240824112628.png",
+    "imgs/Pasted image 20240825125828.png",
+    "imgs/Pasted image 20240825125647.png",
+    "imgs/Pasted image 20240825125525.png",
+    "imgs/Pasted image 20240825125342.png",
+    "imgs/Pasted image 20240825125314.png",
+    "imgs/Pasted image 20240825125028.png",
+    "Placement/Placemennt.md",
+    "Floor Planning/Placement (VSD).md",
+    "Sanity Checks/Sanity Checks.md",
+    "imgs/Pasted image 20240825123601.png",
+    "imgs/Pasted image 20240825123559.png",
+    "imgs/Pasted image 20240825123447.png",
+    "imgs/Pasted image 20240825123043.png",
+    "Untitled",
+    "Different File types.md",
+    "Sanity Checks",
+    "Open Road.md",
+    "Placement/wirelength_esimations.md",
+    "Placement/Post Placement optimizations.md",
     "Placement/Legalization and Detailed Placement.md",
     "Placement/Global Placement.md",
     "2024-08-24.md",
     "Untitled.canvas",
     "Floor_plannig.md",
     "Floor Planning",
-    "imgs/Pasted image 20240824121636.png",
-    "imgs/Pasted image 20240824121506.png",
-    "imgs/Pasted image 20240824121230.png",
-    "imgs/Pasted image 20240824114541.png",
-    "imgs/Pasted image 20240824114557.png",
-    "imgs/Pasted image 20240824114714.png",
-    "imgs/Pasted image 20240824115448.png",
     "imgs",
     "Physical Design/Global Placement Techniques.md",
-    "Pasted image 20240824114357.png",
-    "Pasted image 20240824112554.png",
     "images",
     "Placement",
     "Untitled 1.md"
