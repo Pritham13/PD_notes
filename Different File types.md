@@ -1,4 +1,4 @@
-- erilog --> netlists
+- verilog --> netlists
 - techlef --> metal layer data and design rules (technology files)
 - spice --> circuit netlists of analog devices
 - maglef --> used for displaying metal layers in the layout tool

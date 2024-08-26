@@ -1,0 +1,3 @@
+- [x] Clock Tree synthesis
+- [ ] BJT gate questions
+- [ ] DIGITAL gate questions

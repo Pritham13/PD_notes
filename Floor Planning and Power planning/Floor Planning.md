@@ -1,5 +1,28 @@
 [Reference](https://vlsitutor.com/nots/introduction-to-floorplan/)
 [Implementation Methodology](Implementation%20Methodology.md)
+
+## Contents
+- [[#Steps|Steps]]
+- [[#IO Cells|IO Cells]]
+  - [[#Functions of IO Cells|Functions of IO Cells]]
+  - [[#Connection to the Package|Connection to the Package]]
+  - [[#Placement of IO Cells|Placement of IO Cells]]
+- [[#Macro Placement|Macro Placement]]
+  - [[#Initial Macro placement|Initial Macro Placement]]
+  - [[#Types of Macros|Types of Macros]]
+  - [[#Guidelines for placing Macros|Guidelines for Placing Macros]]
+- [[#Width and Height of cells|Width and Height of Cells]]
+  - [[#Core Utilization|Core Utilization]]
+- [[#Chip Partitioning|Chip Partitioning]]
+- [[#De-Coupling capacitors|De-Coupling Capacitors]]
+  - [[#working|Working]]
+- [[#Power Supply|Power Supply]]
+	- [[Power Planning#Power Delivery Network|PDN]]
+- [[#Pin Placement|Pin Placement]]
+
+
+
+
 ## Steps
 - Decide Core height and width
 - creates Power / ground connections 
@@ -38,7 +61,7 @@
 ## Macro Placement
 - Floor Planning we only place Macros not standard cells
 - Macros are placed in floor planning since its easier to make any changes since they are lesser in number as compared to standard cells
-- **Initial Macro placement**
+### Initial Macro placement
 	- Strongly connected macros are placed together
 	- Fly lines guide the floor plan 
 		- they indicate the number of nets going going in and out of the macros
@@ -75,7 +98,7 @@ Lets consider a basic example of a combo logic between capture and launch flops.
 **Utilization factor** = Area of the netlist / Total area of the core ( < 1 usually 0.5/0.6 )  
 **Aspect ratio** = Height / Width of the core ( if 1 --> square core; else --> rectangle core )  
 
-Core Utilization:
+### Core Utilization:
 -  Utilization: Utilization defines the area occupied by standard cell, macros and blockages. In general, 70 to80% of utilization is fixed because more number of inverters and buffers will be added during the process of CTS (Clock Tree Synthesis) in order to maintain minimum skew.
 -  A core utilization of 0.8 means that 80% of the area is available for placement of cells, whereas 20% is left free for routing.
 
