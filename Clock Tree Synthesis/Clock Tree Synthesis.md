@@ -1,3 +1,25 @@
+## Contents
+- [Introduction](#introduction)
+- [Terminologies](#terminologies)
+  - [Source](#source)
+  - [Sinks](#sinks)
+  - [Clock Tree](#clock-tree)
+  - [Insertion Delay/Delay/Latency](#insertion-delaydelaylatency)
+  - [Clock Skew](#clock-skew)
+  - [Global Clock Skew](#global-clock-skew)
+- [Buffers](#buffers)
+  - [Buffer Placement and Impact on Delay](#buffer-placement-and-impact-on-delay)
+- [Clock Distribution Network](#clock-distribution-network)
+  - [Global Clock Distribution](#global-clock-distribution)
+    - [Symmetric Tree Architecture](#symmetric-tree-architecture)
+      - [H-tree](#h-tree)
+      - [X-tree](#x-tree)
+    - [Mesh Architecture](#mesh-architecture)
+      - [Advantages of Mesh Architecture](#advantages-of-mesh-architecture)
+      - [Disadvantages of Mesh Architecture](#disadvantages-of-mesh-architecture)
+  - [Local Clock Distribution](#local-clock-distribution)
+
+## Introduction
 Clock tree synthesis implements clock distribution structure on the layout having similar behavior to that of an ideal clock
 - Minimizes clock skew 
 - inserts clock buffers or inverters 

@@ -62,11 +62,11 @@
 - Floor Planning we only place Macros not standard cells
 - Macros are placed in floor planning since its easier to make any changes since they are lesser in number as compared to standard cells
 ### Initial Macro placement
-	- Strongly connected macros are placed together
-	- Fly lines guide the floor plan 
-		- they indicate the number of nets going going in and out of the macros
-		![[Pasted image 20240825125028.png|300]]
-	- Macros interacting with IO is placed close to IO cells
+- Strongly connected macros are placed together
+- Fly lines guide the floor plan 
+	- they indicate the number of nets going going in and out of the macros
+	![[Pasted image 20240825125028.png|300]]
+- Macros interacting with IO is placed close to IO cells
 ### Types of Macros
 - Hard macros 
 	- non-flexible , Aspect ratio is not flexible

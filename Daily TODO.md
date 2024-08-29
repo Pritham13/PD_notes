@@ -1,3 +1,4 @@
-- [x] Clock Tree synthesis
-- [ ] BJT gate questions
+- [ ] Revision
+- [ ] Routing 
+- [ ] BJT basics with some questions
 - [ ] DIGITAL gate questions
