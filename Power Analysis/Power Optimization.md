@@ -1,3 +1,4 @@
+
 Refer  [[Power  Dissipation#Total power Dissipation]] for Power dissipation formula
 # Dynamic Voltage Frequency Scaling
 - changes supply voltage and frequency dynamically to reduce power dissipation

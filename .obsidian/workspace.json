@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Power Analysis/Power Optimization.md",
-                "mode": "source",
+                "file": "Power Analysis/Power  Dissipation.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Power Analysis/Power Optimization.md",
+                "file": "Power Analysis/Power  Dissipation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Power Analysis/Power Optimization.md",
+                "file": "Power Analysis/Power  Dissipation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Power Analysis/Power Optimization.md"
+                "file": "Power Analysis/Power  Dissipation.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "884dac68115d3e98",
   "lastOpenFiles": [
+    "Power Analysis/Power Optimization.md",
+    "Power Analysis/Power  Dissipation.md",
+    "Daily TODO.md",
     "imgs/Pasted image 20240901123921.png",
     "imgs/Pasted image 20240901123858.png",
     "imgs/Pasted image 20240901123642.png",
@@ -156,14 +159,11 @@
     "imgs/Pasted image 20240901122433.png",
     "Floor Planning and Power planning/Power Planning.md",
     "Floor Planning and Power planning/Floor Planning.md",
-    "Power Analysis/Power Optimization.md",
-    "Power Analysis/Power  Dissipation.md",
     "Dynamic Power Dissipation.md",
     "imgs/Pasted image 20240901115936.png",
     "imgs/Pasted image 20240901115802.png",
     "imgs/Pasted image 20240901115750.png",
     "imgs/Pasted image 20240901115626.png",
-    "imgs/Pasted image 20240901114758.png",
     "Different File types.md",
     "Power Analysis",
     "Untitled.canvas",
@@ -178,7 +178,6 @@
     "Terminologies.md",
     "Doubts.md",
     "Introduction.md",
-    "Daily TODO.md",
     "Placement/wirelength_esimations.md",
     "Sanity Checks/Sanity Checks.md",
     "Open Road.md",
