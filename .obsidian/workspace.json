@@ -1,39 +1,52 @@
 {
   "main": {
-    "id": "ed74cafb4178704a",
+    "id": "2f6793a4fa26ff42",
     "type": "split",
     "children": [
       {
-        "id": "38717a459913a9f2",
+        "id": "d762292ed21f61bd",
         "type": "tabs",
         "children": [
           {
-            "id": "884dac68115d3e98",
+            "id": "25388991bb973701",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Power Analysis/Power Optimization.md",
+                "file": "Floor Planning and Power planning/Power Planning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce16f69d00dae03a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PVT Corners.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3bda27fc77258428",
+    "id": "537bda254e464b59",
     "type": "split",
     "children": [
       {
-        "id": "723d924a5eda769a",
+        "id": "a7df021ec93944af",
         "type": "tabs",
         "children": [
           {
-            "id": "df7ca950693d4da9",
+            "id": "5fe8a230c65640ec",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +56,7 @@
             }
           },
           {
-            "id": "36300d4c64f08653",
+            "id": "557de5f722432ace",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +71,7 @@
             }
           },
           {
-            "id": "8009adb0c72283da",
+            "id": "31a703d8b26d9d81",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +82,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 300
   },
   "right": {
-    "id": "7ea5624950e89c96",
+    "id": "553d2f612f54bd85",
     "type": "split",
     "children": [
       {
-        "id": "182614f3d3fb558c",
+        "id": "b474d68ffda936cc",
         "type": "tabs",
         "children": [
           {
-            "id": "f5a4c68f77decb78",
+            "id": "69399950997435f1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Power Analysis/Power Optimization.md",
+                "file": "PVT Corners.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +110,19 @@
             }
           },
           {
-            "id": "58f8a2d0b3e3926f",
+            "id": "eb87d3df90aa8c90",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Power Analysis/Power Optimization.md",
+                "file": "PVT Corners.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "073d7852593fc466",
+            "id": "27d3bb374b3b9716",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +133,12 @@
             }
           },
           {
-            "id": "850135b868f15dfa",
+            "id": "9f741a6f85624ddb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Power Analysis/Power Optimization.md"
+                "file": "PVT Corners.md"
               }
             }
           }
@@ -146,53 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "884dac68115d3e98",
+  "active": "ce16f69d00dae03a",
   "lastOpenFiles": [
-    "imgs/Pasted image 20240901123921.png",
-    "imgs/Pasted image 20240901123858.png",
-    "imgs/Pasted image 20240901123642.png",
-    "imgs/Pasted image 20240901123554.png",
-    "imgs/Pasted image 20240901122842.png",
-    "imgs/Pasted image 20240901122433.png",
+    "imgs/Pasted image 20240901202941.png",
+    "imgs/Pasted image 20240901202310.png",
+    "Intro_PD/FEOL.md",
+    "Intro_PD/IC Fabrication.md",
+    "Intro_PD",
     "Floor Planning and Power planning/Power Planning.md",
-    "Floor Planning and Power planning/Floor Planning.md",
-    "Power Analysis/Power Optimization.md",
-    "Power Analysis/Power  Dissipation.md",
-    "Dynamic Power Dissipation.md",
-    "imgs/Pasted image 20240901115936.png",
-    "imgs/Pasted image 20240901115802.png",
-    "imgs/Pasted image 20240901115750.png",
-    "imgs/Pasted image 20240901115626.png",
-    "imgs/Pasted image 20240901114758.png",
-    "Different File types.md",
-    "Power Analysis",
-    "Untitled.canvas",
-    "Placement/Legalization and Detailed Placement.md",
-    "Placement/Global Placement.md",
-    "Placement/Post Placement optimizations.md",
-    "Placement/Placemennt.md",
-    "Routing/Routing.md",
-    "Routing",
-    "Floor Planning and Power planning/Implementation Methodology.md",
-    "Clock Tree Synthesis/Clock Tree Synthesis.md",
-    "Terminologies.md",
-    "Doubts.md",
-    "Introduction.md",
-    "Daily TODO.md",
-    "Placement/wirelength_esimations.md",
-    "Sanity Checks/Sanity Checks.md",
-    "Open Road.md",
-    "Clock Tree Synthesis",
-    "Floor Planning and Power planning/Placement (VSD).md",
-    "Global.md",
-    "Power Planning",
-    "Sanity Checks",
-    "2024-08-24.md",
-    "Floor_plannig.md",
-    "Floor Planning and Power planning",
-    "imgs",
-    "Physical Design/Global Placement Techniques.md",
-    "images",
-    "Placement"
+    "Intro_PD/BEOL.md",
+    "imgs/interconnect_layers.png",
+    "PVT Corners.md"
   ]
 }
