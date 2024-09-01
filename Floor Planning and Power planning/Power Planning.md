@@ -21,7 +21,7 @@ Flow of electrons can cause collisions with metal atoms which may lead to transp
 This is prevalent in places where is there is current flow only in one direction 
 - PDN are prone to electromigration
 - Current in PDN needs to be kept within limit defined by the process technology
-	- ensure conductor size is  adequate 
+	-  ensure conductor size is  adequate 
 >Note : the metal mass is transported in direction of movement of electrons which is opposite to the of current
 
 ## Voltage Drop

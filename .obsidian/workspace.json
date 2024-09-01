@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "510238fac760aa9c",
+        "id": "38717a459913a9f2",
         "type": "tabs",
         "children": [
           {
-            "id": "93b7895502e26ed8",
+            "id": "884dac68115d3e98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Floor Planning and Power planning/Power Planning.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "500024b326cad41d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Placement/Placemennt.md",
+                "file": "Power Analysis/Power Optimization.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Placement/Placemennt.md",
+                "file": "Power Analysis/Power Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Placement/Placemennt.md",
+                "file": "Power Analysis/Power Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Placement/Placemennt.md"
+                "file": "Power Analysis/Power Optimization.md"
               }
             }
           }
@@ -159,35 +146,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df7ca950693d4da9",
+  "active": "884dac68115d3e98",
   "lastOpenFiles": [
-    "Placement/Global Placement.md",
-    "Routing/Routing.md",
-    "imgs/Pasted image 20240828200021.png",
-    "imgs/Pasted image 20240828190100.png",
-    "imgs/Pasted image 20240828190057.png",
-    "imgs/Pasted image 20240828185854.png",
+    "imgs/Pasted image 20240901123921.png",
+    "imgs/Pasted image 20240901123858.png",
+    "imgs/Pasted image 20240901123642.png",
+    "imgs/Pasted image 20240901123554.png",
+    "imgs/Pasted image 20240901122842.png",
+    "imgs/Pasted image 20240901122433.png",
     "Floor Planning and Power planning/Power Planning.md",
+    "Floor Planning and Power planning/Floor Planning.md",
+    "Power Analysis/Power Optimization.md",
+    "Power Analysis/Power  Dissipation.md",
+    "Dynamic Power Dissipation.md",
+    "imgs/Pasted image 20240901115936.png",
+    "imgs/Pasted image 20240901115802.png",
+    "imgs/Pasted image 20240901115750.png",
+    "imgs/Pasted image 20240901115626.png",
+    "imgs/Pasted image 20240901114758.png",
+    "Different File types.md",
+    "Power Analysis",
+    "Untitled.canvas",
+    "Placement/Legalization and Detailed Placement.md",
+    "Placement/Global Placement.md",
+    "Placement/Post Placement optimizations.md",
+    "Placement/Placemennt.md",
+    "Routing/Routing.md",
     "Routing",
     "Floor Planning and Power planning/Implementation Methodology.md",
-    "Floor Planning and Power planning/Floor Planning.md",
     "Clock Tree Synthesis/Clock Tree Synthesis.md",
     "Terminologies.md",
     "Doubts.md",
     "Introduction.md",
     "Daily TODO.md",
     "Placement/wirelength_esimations.md",
-    "Placement/Post Placement optimizations.md",
-    "Placement/Placemennt.md",
-    "Placement/Legalization and Detailed Placement.md",
-    "imgs/Pasted image 20240826124001.png",
-    "imgs/Pasted image 20240826123649.png",
     "Sanity Checks/Sanity Checks.md",
-    "Different File types.md",
-    "imgs/Pasted image 20240826123341.png",
-    "imgs/Pasted image 20240826123254.png",
-    "Pasted image 20240826122723.png",
-    "imgs/Pasted image 20240826121857.png",
     "Open Road.md",
     "Clock Tree Synthesis",
     "Floor Planning and Power planning/Placement (VSD).md",
@@ -195,13 +188,11 @@
     "Power Planning",
     "Sanity Checks",
     "2024-08-24.md",
-    "Untitled.canvas",
     "Floor_plannig.md",
     "Floor Planning and Power planning",
     "imgs",
     "Physical Design/Global Placement Techniques.md",
     "images",
-    "Placement",
-    "Untitled 1.md"
+    "Placement"
   ]
 }
