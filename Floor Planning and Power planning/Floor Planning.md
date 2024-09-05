@@ -99,6 +99,9 @@ Lets consider a basic example of a combo logic between capture and launch flops.
 **Aspect ratio** = Height / Width of the core ( if 1 --> square core; else --> rectangle core )  
 
 ### Core Utilization:
+	$$
+	\text{Die area} = \frac{\text {area of standard cells} }{\text{utilization factor}}
+	$$
 -  Utilization: Utilization defines the area occupied by standard cell, macros and blockages. In general, 70 to80% of utilization is fixed because more number of inverters and buffers will be added during the process of CTS (Clock Tree Synthesis) in order to maintain minimum skew.
 -  A core utilization of 0.8 means that 80% of the area is available for placement of cells, whereas 20% is left free for routing.
 

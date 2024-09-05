@@ -12,10 +12,10 @@ power dissipation when computation occurs
 #### Switching power
 ![](Pasted%20image%2020240901114758.png)
 taking the above circuit as example , if the input at the inverter makes a transition the same is reflected at the output . The inverter has to drive all the gates that are connected to it , and the gates have some input capacitance and the inverter itself has some output capacitance during the transition the inverter has to charge /discharge the capacitances of the gates which leads to some power dissipation this is called as switching power dissipation .
-![](Pasted%20image%2020240901115626.png)
 
+![250](Pasted%20image%2020240901115626.png)
 #### Short circuit power
-![](Pasted%20image%2020240901115802.png)
+![300](Pasted%20image%2020240901115802.png)
 in the above circuit if the input transition is too slow both the PMOS and NMOS will be turned on together and there will be a short circuit momentarily and this will cause a loss in power
 ### Static power dissipation
 power dissipation that occurs when the circuit is on but not performing active computation
